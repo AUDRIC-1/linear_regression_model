@@ -1,0 +1,20 @@
+[project]
+name = "linear-regression-model"
+version = "0.1.0"
+description = "Crop yield prediction: linear regression model, API, and Flutter app"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "uvicorn",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "joblib",
+    "matplotlib",
+    "seaborn",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
